@@ -17,3 +17,7 @@ Route::get('/addEmpleado.blade.php', function () {
 Route::get('/', function () {
     return view('welcome');
 }) ->name('inicio');
+
+Route::get('/VerEmpleado', function () {
+    return view('readEmpleado');
+}) ->name('Empleado');

@@ -34,7 +34,7 @@
                     <td>javier@gmail.com</td>
                     <td>Vendedor</td>
                     <td>
-                        <a href="" class="btn btn-success">Ver</a>
+                        <a href="{{route('Empleado') }}" class="btn btn-success">Ver</a>
                         <a href="" class="btn btn-primary">Actualizar</a>
                         <form action="" method="POST" style="display:inline;">
                             @csrf
